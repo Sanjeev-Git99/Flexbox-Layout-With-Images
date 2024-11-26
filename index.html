@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .md {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: yellow;
+      }
+      .div1,
+      .div2,
+      .div3 {
+        border: 2px solid;
+      }
+      .div1 {
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-content: center;
+        border-radius: 15px;
+        background-color: #f4f3f2;
+      }
+      .div1 div {
+        border: 3px solid green;
+        height: 170px;
+        text-align: center;
+        width: 180px;
+        border-radius: 15px;
+        
+      }
+      .div2 {
+        display: flex;
+        padding: 20px;
+        gap: 15px;
+        border-radius: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #f4f3f2;
+      }
+      .div2 div {
+        border: 3px solid green;
+        height: 270px;
+        width: 180px;
+        text-align: center;
+        
+        border-radius: 10px;
+      }
+      .div3 {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        border-radius: 15px;
+        background-color: #f4f3f2;
+      }
+      .div3 div {
+        border: 3px solid green;
+        height: 170px;
+        width: 180px;
+        text-align: center;
+        border-radius: 10px;
+        
+      }
+      .div2_2 {
+        flex-grow: 0.3;
+      }
+      .md {
+        border: 2px solid black;
+        padding: 10px;
+      }
+      .div1 div:hover{
+        border: 3px solid red;
+      }
+      .div2 div:hover{
+        border: 3px solid red;
+      }
+      .div3 div:hover{
+        border: 3px solid red;
+      }
+      .heading {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md">
+        <h1 class="heading">CSK Team Members in 2025 Using Flexbox-Layout</h1>
+        
+      <!--Header Section-->
+      <div class="div1">
+        <div class="div1_1">
+          <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/102.png"
+            alt="Ruturaj Gaikwad"
+            title="Ruturaj Gaikwad"
+            height="160px"
+            width="160px"
+          />
+        </div>
+        <div class="div1_2">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2023/601.png"
+            alt="Devon Conway"
+            title="Devon Conway"
+            height="160px"
+            width="160px"
+          />
+        </div>
+        <div class="div1_3">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/778.png"
+            alt="Shaik Rasheed"
+            title="Shaik Rasheed"
+            height="160px"
+            width="160px"
+          />
+        </div>
+        <div class="div1_4">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/724.png"
+            alt="Rachin Ravindra"
+            title="Rachin Ravindra"
+            height="160px"
+            width="160px"
+          />
+        </div>
+      </div>
+      <!--Body-Section-->
+      <div class="div2">
+        <div class="div2_1">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/211.png"
+            alt="Shivam Dube"
+            title="Shivam Dube"
+            height="260px"
+            width="182px"
+          />  
+        </div>
+        <div class="div2_2">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/57.png"
+            alt="MS Dhoni"
+            title="MS Dhoni"
+            height="260px"
+            width="210px"
+          />
+        </div>
+        <div class="div2_3">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/46.png"
+            alt="Ravindra Jadeja"
+            title="Ravindra Jadeja"
+            height="260px"
+            width="182px"
+          />  
+        </div>
+      </div>
+      <!--Footer-Section-->
+      <div class="div3">
+        <div class="div3_1">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/970.png"
+            alt="Mukesh Choudhary"
+            title="Mukesh Choudhary"
+            height="160px"
+            width="160px"
+          />
+        </div>
+        <div class="div3_2">
+            <img
+            src="https://documents.iplt20.com/ipl/IPLHeadshot2024/1014.png"
+            alt="Matheesha Pathirana"
+            title="Matheesha Pathirana"
+            height="160px"
+            width="160px"
+          />
+        </div>
+        <div class="div3_3">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQP61YlbosjlKC8bjF4GVLbfgxO61GOUQr5Q&s"
+            alt="Khaleel Ahmed"
+            title="Khaleel Ahmed"
+            height="160px"
+            width="160px"
+          /> 
+        </div>
+        <div class="div3_3">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoffbXMVQ0M0cSE9ov2Hik8ZZPDGms6HEOjw&s"
+            alt="Noor Ahmad"
+            title="Noor Ahmad"
+            height="160px"
+            width="160px"
+          /> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
